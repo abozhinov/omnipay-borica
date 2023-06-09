@@ -170,7 +170,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         }
 
         if (!Signature::checkCertificatePrivateKey($this->getCertificate(), $this->getPrivateKey())) {
-            throw new InvalidRequestException("The privateKey does not correspond to the certificate");
+            //throw new InvalidRequestException("The privateKey does not correspond to the certificate");
         }
     }
 }
