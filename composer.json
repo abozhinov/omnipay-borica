@@ -1,5 +1,5 @@
 {
-    "name": "gentor/omnipay-borica",
+    "name": "abozhinov/omnipay-borica",
     "type": "library",
     "description": "Borica Way4 gateway for Omnipay payment processing library",
     "keywords": [
@@ -36,7 +36,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "master"
+            "dev-master": "1.0.x-dev"
         }
     },
     "prefer-stable": true
