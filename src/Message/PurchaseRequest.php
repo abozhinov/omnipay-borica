@@ -35,6 +35,10 @@ class PurchaseRequest extends AbstractRequest
                 substr(time() . time(), 0, 16);
         }
 
+        if ($this->getParameter('M_INFO')) {
+            $data['M_INFO'] = $this->getParameter('M_INFO');
+        }
+
         $data['P_SIGN'] = $this->sign($data);
 
         return $data;
